@@ -1,0 +1,107 @@
+
+header h1 h2{
+    font-family: 'roboto', 'serif';
+    text-align: center;
+}
+
+header {
+    background-image: url(../img/green-energy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: #394e38;
+}
+
+header h1, header h2 {
+    margin-left: 5%;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #077e01;
+}
+
+/*--------DYNAMIC CONTENT--------*/
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #e2eeda;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 30px;        
+}
+
+img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    max-width: 400px;
+}
+
+
+
+footer{
+    background-color: rgb(234, 240, 226);
+    padding: 2rem;
+}
+footer i{
+    margin-right: 1rem;
+    color: rgb(132, 177, 43);
+}
+
+/*--------MEDIA QUERIES--------*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    body {
+        font-size: 1rem;
+    }
+    
+    img {
+        width: 50%;
+        max-width: 400px;
+        display: inline-block;
+        float: left;
+        margin: 0 30px 30px 0;
+    }
+    i {
+        font-size: 1em;
+        margin: 10px;
+    }
+    
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    button {
+            margin: 3%;
+            display: inline-block;
+            width: 25%;
+            
+            
+    }
+    
+
+    
+}
